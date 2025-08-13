@@ -1,3 +1,3 @@
-#Tokyu ghoul quizz 
-A simple quizz about the manga tokyo ghoul 
-enjoy!!
+#Anime quizz 
+A simple web page quizz about some manga/anime i've read 
+Hope you enjoy it 
