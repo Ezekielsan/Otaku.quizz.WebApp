@@ -195,7 +195,9 @@ function showScore() {
   scoreEl.textContent = currentLang === "fr"
     ? `Vous avez obtenu ${score} sur ${questions.length} !`
     : `You scored ${score} out of ${questions.length}!`;
-  if (restartBtn) restartBtn.style.display = "inline-block";
+  if (restartBtn) {
+    restartBtn.style.display = "inline-block";
+  }
 }
 
 function resetQuiz() {
@@ -216,3 +218,4 @@ if (restartBtn) {
 // Initial UI text setup
 updateUITexts();
 showQuestion();
+
