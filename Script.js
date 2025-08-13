@@ -79,7 +79,7 @@ function showScore() {
   choicesEl.style.display = "none";
   nextBtn.style.display = "none";
   scoreEl.style.display = "block";
-  scoreEl.textContent = 'You scored ${score} out of ${questions.length}!';
+  scoreEl.textContent = `You scored ${score} out of ${questions.length}!`;
 }
 
 // Start the quiz
