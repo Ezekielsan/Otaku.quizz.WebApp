@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 #quiz-container {
@@ -13,7 +14,9 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 400px;
+  max-width: 95vw;
   text-align: center;
+  position: relative;
 }
 
 #choices button {
@@ -25,6 +28,8 @@ body {
   border-radius: 5px;
   background-color: #e0e0e0;
   cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
 }
 
 #choices button:hover {
@@ -39,4 +44,56 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+  display: none;
+}
+
+#next-btn:active {
+  background-color: #388e3c;
+}
+
+#restart-btn {
+  display: none;
+  margin: 20px auto 0 auto;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.2s;
+  width: fit-content;
+}
+
+#restart-btn:active {
+  background-color: #1565c0;
+}
+
+#score {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.choice-btn.correct {
+  background-color: #4CAF50 !important;
+  color: white;
+}
+
+.choice-btn.incorrect {
+  background-color: #f44336 !important;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  #quiz-container {
+    width: 98vw;
+    padding: 10px;
+  }
+  #choices button, #next-btn, #restart-btn {
+    font-size: 0.95rem;
+    padding: 10px 8px;
+  }
 }
