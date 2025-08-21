@@ -105,7 +105,7 @@ const questions = [
       en: "Shanks",
       fr: "Shanks"
     }
-  };
+  },
    {
     question: {
       en: "What is luffy ultimate goal in life ?",
@@ -119,7 +119,7 @@ const questions = [
       en: "To become the pirate king",
       fr: "Devenir le roi des pirates"
     }
-  };
+  },
  {
     question: {
       en: "What is the name of the ship used by the straw hat pirates afer the going merry ?",
@@ -512,6 +512,7 @@ if (restartBtn) {
 // Initial UI text setup
 updateUITexts();
 showQuestion();
+
 
 
 
