@@ -133,6 +133,272 @@ const questions = [
       en: "Thousand sunny",
       fr: "Thousand sunny"
     }
+  },
+  {
+    question: {
+      en: "What is Monkey D. Luffy's ultimate goal?",
+      fr: "Quel est le but ultime de Monkey D. Luffy ?"
+    },
+    choices: {
+      en: ["To become the Pirate King", "To find the All Blue", "To defeat the Marines", "To protect his crew"],
+      fr: ["Devenir le Roi des Pirates", "Trouver l'All Blue", "Vaincre les Marines", "Protéger son équipage"]
+    },
+    answer: {
+      en: "To become the Pirate King",
+      fr: "Devenir le Roi des Pirates"
+    }
+  },
+  {
+    question: {
+      en: "Which ship replaced the Going Merry?",
+      fr: "Quel navire a remplacé le Going Merry ?"
+    },
+    choices: {
+      en: ["Thousand Sunny", "Red Force", "Moby Dick", "Flying Lamb"],
+      fr: ["Thousand Sunny", "Red Force", "Moby Dick", "Flying Lamb"]
+    },
+    answer: {
+      en: "Thousand Sunny",
+      fr: "Thousand Sunny"
+    }
+  },
+  {
+    question: {
+      en: "Who is the swordsman of the Straw Hat crew?",
+      fr: "Qui est le sabreur de l'équipage du Chapeau de Paille ?"
+    },
+    choices: {
+      en: ["Roronoa Zoro", "Sanji", "Usopp", "Brook"],
+      fr: ["Roronoa Zoro", "Sanji", "Usopp", "Brook"]
+    },
+    answer: {
+      en: "Roronoa Zoro",
+      fr: "Roronoa Zoro"
+    }
+  },
+  {
+    question: {
+      en: "Which Devil Fruit did Portgas D. Ace eat?",
+      fr: "Quel Fruit du Démon Portgas D. Ace a-t-il mangé ?"
+    },
+    choices: {
+      en: ["Mera Mera no Mi", "Gomu Gomu no Mi", "Hie Hie no Mi", "Yami Yami no Mi"],
+      fr: ["Mera Mera no Mi", "Gomu Gomu no Mi", "Hie Hie no Mi", "Yami Yami no Mi"]
+    },
+    answer: {
+      en: "Mera Mera no Mi",
+      fr: "Mera Mera no Mi"
+    }
+  },
+    {
+    question: {
+      en: "What is the name of Naruto's signature jutsu?",
+      fr: "Quel est le nom du jutsu emblématique de Naruto ?"
+    },
+    choices: {
+      en: ["Rasengan", "Chidori", "Shadow Clone", "Amaterasu"],
+      fr: ["Rasengan", "Chidori", "Clone de l'Ombre", "Amaterasu"]
+    },
+    answer: {
+      en: "Rasengan",
+      fr: "Rasengan"
+    }
+  },
+  {
+    question: {
+      en: "Who is the original wielder of the Sharingan?",
+      fr: "Qui est le porteur originel du Sharingan ?"
+    },
+    choices: {
+      en: ["Madara Uchiha", "Sasuke Uchiha", "Itachi Uchiha", "Kakashi Hatake"],
+      fr: ["Madara Uchiha", "Sasuke Uchiha", "Itachi Uchiha", "Kakashi Hatake"]
+    },
+    answer: {
+      en: "Madara Uchiha",
+      fr: "Madara Uchiha"
+    }
+  },
+  {
+    question: {
+      en: "What beast is sealed inside Naruto?",
+      fr: "Quel démon est scellé en Naruto ?"
+    },
+    choices: {
+      en: ["Nine-Tails", "Eight-Tails", "Ten-Tails", "One-Tail"],
+      fr: ["Kurama (Neuf-Queues)", "Gyūki (Huit-Queues)", "Jūbi (Dix-Queues)", "Shukaku (Une-Queue)"]
+    },
+    answer: {
+      en: "Nine-Tails",
+      fr: "Kurama (Neuf-Queues)"
+    }
+  },
+  {
+    question: {
+      en: "Who is Naruto's father?",
+      fr: "Qui est le père de Naruto ?"
+    },
+    choices: {
+      en: ["Minato Namikaze", "Jiraiya", "Kakashi", "Hiruzen Sarutobi"],
+      fr: ["Minato Namikaze", "Jiraiya", "Kakashi", "Hiruzen Sarutobi"]
+    },
+    answer: {
+      en: "Minato Namikaze",
+      fr: "Minato Namikaze"
+    }
+  },
+  {
+    question: {
+      en: "Which organization does Itachi Uchiha join?",
+      fr: "Quelle organisation Itachi Uchiha rejoint-il ?"
+    },
+    choices: {
+      en: ["Akatsuki", "Anbu", "Konoha Police", "Sound Four"],
+      fr: ["Akatsuki", "Anbu", "Police de Konoha", "Les Quatre du Son"]
+    },
+    answer: {
+      en: "Akatsuki",
+      fr: "Akatsuki"
+    }
+  },
+    {
+    question: {
+      en: "Who is the Dragon Slayer that uses fire magic?",
+      fr: "Qui est le Chasseur de Dragons qui utilise la magie du feu ?"
+    },
+    choices: {
+      en: ["Natsu Dragneel", "Gray Fullbuster", "Laxus Dreyar", "Gajeel Redfox"],
+      fr: ["Natsu Dragneel", "Gray Fullbuster", "Laxus Dreyar", "Gajeel Redfox"]
+    },
+    answer: {
+      en: "Natsu Dragneel",
+      fr: "Natsu Dragneel"
+    }
+  },
+  {
+    question: {
+      en: "What is Lucy Heartfilia's magic type?",
+      fr: "Quel type de magie utilise Lucy Heartfilia ?"
+    },
+    choices: {
+      en: ["Celestial Spirit Magic", "Requip Magic", "Ice-Make Magic", "Transformation Magic"],
+      fr: ["Magie des Esprits Stellaires", "Magie de Rééquipement", "Magie de Glace", "Magie de Transformation"]
+    },
+    answer: {
+      en: "Celestial Spirit Magic",
+      fr: "Magie des Esprits Stellaires"
+    }
+  },
+  {
+    question: {
+      en: "Which guild is the main focus of the series?",
+      fr: "Quel est le nom de la guilde principale de la série ?"
+    },
+    choices: {
+      en: ["Fairy Tail", "Sabertooth", "Blue Pegasus", "Lamia Scale"],
+      fr: ["Fairy Tail", "Sabertooth", "Blue Pegasus", "Lamia Scale"]
+    },
+    answer: {
+      en: "Fairy Tail",
+      fr: "Fairy Tail"
+    }
+  },
+  {
+    question: {
+      en: "Who is the Ice-Make mage in Fairy Tail?",
+      fr: "Qui est le mage de Glace dans Fairy Tail ?"
+    },
+    choices: {
+      en: ["Gray Fullbuster", "Erza Scarlet", "Juvia Lockser", "Freed Justine"],
+      fr: ["Gray Fullbuster", "Erza Scarlet", "Juvia Lockser", "Freed Justine"]
+    },
+    answer: {
+      en: "Gray Fullbuster",
+      fr: "Gray Fullbuster"
+    }
+  },
+  {
+    question: {
+      en: "What is Erza Scarlet known for?",
+      fr: "Pourquoi Erza Scarlet est-elle célèbre ?"
+    },
+    choices: {
+      en: ["Requip Magic", "Healing Magic", "Celestial Magic", "Dragon Slayer Magic"],
+      fr: ["Magie de Rééquipement", "Magie de Guérison", "Magie Stellaire", "Magie de Chasseur de Dragons"]
+    },
+    answer: {
+      en: "Requip Magic",
+      fr: "Magie de Rééquipement"
+    }
+  },
+    {
+    question: {
+      en: "What is the name of the power system in My Hero Academia?",
+      fr: "Quel est le nom du système de pouvoirs dans My Hero Academia ?"
+    },
+    choices: {
+      en: ["Quirks", "Nen", "Stands", "Devil Fruits"],
+      fr: ["Alters", "Nen", "Stands", "Fruits du Démon"]
+    },
+    answer: {
+      en: "Quirks",
+      fr: "Alters"
+    }
+  },
+  {
+    question: {
+      en: "Who is the Symbol of Peace?",
+      fr: "Qui est le Symbole de la Paix ?"
+    },
+    choices: {
+      en: ["All Might", "Endeavor", "Deku", "Aizawa"],
+      fr: ["All Might", "Endeavor", "Deku", "Aizawa"]
+    },
+    answer: {
+      en: "All Might",
+      fr: "All Might"
+    }
+  },
+  {
+    question: {
+      en: "What is Izuku Midoriya's hero name?",
+      fr: "Quel est le nom de héros d'Izuku Midoriya ?"
+    },
+    choices: {
+      en: ["Deku", "Green Flash", "One For All", "Hero Zero"],
+      fr: ["Deku", "Éclair Vert", "One For All", "Héros Zéro"]
+    },
+    answer: {
+      en: "Deku",
+      fr: "Deku"
+    }
+  },
+  {
+    question: {
+      en: "Which villain leads the League of Villains?",
+      fr: "Quel méchant dirige la Ligue des Vilains ?"
+    },
+    choices: {
+      en: ["Tomura Shigaraki", "Stain", "Dabi", "Overhaul"],
+      fr: ["Tomura Shigaraki", "Stain", "Dabi", "Overhaul"]
+    },
+    answer: {
+      en: "Tomura Shigaraki",
+      fr: "Tomura Shigaraki"
+    }
+  },
+  {
+    question: {
+      en: "What is the civilian name of all might ?",
+      fr: "Quel est le nom de civil de all might ?"
+    },
+    choices: {
+      en: ["Toshinori Yagi", "Akagami sozu", "Jin dojima", "Azuriya aoi"],
+      fr: ["Toshinori Yagi", "Akagami sozu", "Jin dojima", "Azuriya aoi"]
+    },
+    answer: {
+      en: "Toshinori Yagi",
+      fr: "Toshinori Yagi"
+    }
   }
 ];
 
@@ -246,5 +512,6 @@ if (restartBtn) {
 // Initial UI text setup
 updateUITexts();
 showQuestion();
+
 
 
