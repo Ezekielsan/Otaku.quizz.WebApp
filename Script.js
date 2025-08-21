@@ -105,6 +105,34 @@ const questions = [
       en: "Shanks",
       fr: "Shanks"
     }
+  };
+   {
+    question: {
+      en: "What is luffy ultimate goal in life ?",
+      fr: "Quel est le but ultime de luffy dans la vie ?"
+    },
+    choices: {
+      en: ["To become handsome", "To find zorro sword", "To get shanks recognition", "To become the pirate king"],
+      fr: ["Devenir beau", "Trouver l'épée de zorro", "Obtenir la reconnaissance de shanks", "Devenir le roi des pirates"]
+    },
+    answer: {
+      en: "To become the pirate king",
+      fr: "Devenir le roi des pirates"
+    }
+  };
+ {
+    question: {
+      en: "What is the name of the ship used by the straw hat pirates afer the going merry ?",
+      fr: "Quel est le nom du navire utilisé par l'équipage au chapeau de paille aprés le going marrry ?"
+    },
+    choices: {
+      en: ["Thousand sunny", "Red force", "Moby dick", "Straw hat arroww"],
+      fr: ["Thousand sunnny", "Force rouge", "Moby dick", "La flèche du chapeau de paille"]
+    },
+    answer: {
+      en: "Thousand sunny",
+      fr: "Thousand sunny"
+    }
   }
 ];
 
@@ -218,4 +246,5 @@ if (restartBtn) {
 // Initial UI text setup
 updateUITexts();
 showQuestion();
+
 
